@@ -1,6 +1,6 @@
 # Project Title
 
-Image Color mode to Grayscale mode change application
+Image Grayscale mode converter
 
 ## Description
 
