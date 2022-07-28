@@ -36,6 +36,7 @@ for fname in os.listdir(filepath):
 		image_conv = image.convert('L')
 		image_conv.save(output_name, dpi=(dpi_val,dpi_val))
 
+for fname in os.listdir(filepath):
 	if fname.endswith(".jpg"):
 		print(fname)
 		input_image = filepath + "/" + fname
@@ -52,6 +53,7 @@ for fname in os.listdir(filepath):
 		image_conv = image.convert('L')
 		image_conv.save(output_name, dpi=(dpi_val,dpi_val))
 
+for fname in os.listdir(filepath):
 	if fname.endswith(".png"):
 		print(fname)
 		input_image = filepath + "/" + fname
