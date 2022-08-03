@@ -5,7 +5,7 @@ Image Grayscale mode converter
 ## Description
 
 * Convert the Color Images (RGB mode) to Grayscale mode type
-* Two types application created, (i) Using Pillow Library (ii) Using Pillow & OpenCV Library 
+* Using Wand Library (ImagicMagick)
 * Source Image (Input Image) resolution will retain in the converted output image.
 * Images types: TIF, JPG, PNG types handled
 
@@ -17,8 +17,8 @@ Image Grayscale mode converter
 
 ### Installing
 
-* pip install Pillow
-* pip install opencv-python
+* pip install Wand
+
 
 ### Executing program
 
@@ -33,3 +33,5 @@ Image Grayscale mode converter
 
 * 0.1
     * Initial Release
+* 0.2
+    * Simplified program, previously used Pillow library. Using the Pilow library the converted images output in TIFF lower version, (i.e. pillow changed the higher version image to lower version image. So now to used ImageMagick library and the converted output tiff version will be 5.0  
