@@ -36,4 +36,4 @@ Image Grayscale mode converter
 * 0.2
     * Simplified program, previously used Pillow library.
     * Using the Pillow library the converted images output in TIFF lower version, (i.e. pillow changed the higher version image to lower version image).
-    * So now we used ImageMagick library and the converted output tiff version will be 5.0  
+    * So now we used ImageMagick library and the converted output tiff version will be 5.0 
