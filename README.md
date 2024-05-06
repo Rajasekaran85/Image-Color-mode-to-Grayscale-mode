@@ -11,7 +11,7 @@ Image Grayscale mode converter
 
 ## Getting Started
 
-### Dependencies
+### Dependencies 
 
 * Windows 7 or above
 
